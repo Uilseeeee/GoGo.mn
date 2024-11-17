@@ -92,17 +92,13 @@ h3 {
     display: flex;
     flex-direction: row;
 }
-
-#title-img {
-    width: 562px;
-    height: 385px;
-}
-
 #title-img {
     transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 562px;
+    height: 385px;
 }
 
 .hidden:hover+#title-img {
@@ -150,6 +146,8 @@ h3 {
 #title-style {
     padding-left: 40px;
     margin-top: 40px;
+    width: 522px;
+    height: 228px;
 }
 
 #front-title {
@@ -205,4 +203,37 @@ h3 {
 }
 .img-container:hover #title-img{
     scale: 1.1;
+}
+#main-section-2{
+background-color: lightblue;
+display: flex;
+flex-direction: row;
+}
+.main-section-2-png{
+    width: 273.5px;
+    height: 175.5px;
+}
+.img-hover :hover{
+    transform: scale(1.1);
+}
+.img-hover{
+    transition: 0.9s;
+}
+.main-section-2-info{
+    padding-left: 10px;
+    width: 273.5px;
+    height: 175px;
+}
+#main-section-2-info{
+    width: 273.5px;
+    height: 175px;
+}
+#main-section-2-jpeg{
+    height: 280px;
+    width: 273px;
+    padding-left: 25px;
+}
+.comment-section{
+    display: flex;
+    flex-direction: row;
 }
