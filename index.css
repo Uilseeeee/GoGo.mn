@@ -857,7 +857,12 @@ h2 {
     width: 561px;
     border-radius: 6px;
     margin-top: 20px;
+    position: relative;
 }
+#colossal-section{
+    border-radius: 6px;
+}
+
 
 #discuss-pos {
     display: flex;
@@ -866,10 +871,10 @@ h2 {
 
 #geud-section {
     margin-left: 80px;
+    border-radius: 6px;
 
 }
-
-.geud-png {
+.geud-png{
     border-radius: 6px;
 }
 
