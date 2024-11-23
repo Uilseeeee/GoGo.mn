@@ -388,6 +388,7 @@ h3 {
 
 }
 
+
 .traffic-img-hover:hover .traffic-img {
     transform: scale(1.1);
     transition: 0.8s;
@@ -429,7 +430,8 @@ h3 {
 
 
 }
-.info-text-p{
+
+.info-text-p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     font-weight: 500;
@@ -437,11 +439,13 @@ h3 {
     width: 156px;
     justify-self: center;
 }
+
 .info-text:hover {
     height: 75px;
     transition: 2s;
 }
-.traffic-img-hover:hover .info-text{
+
+.traffic-img-hover:hover .info-text {
     height: 80px;
     transition: 1s;
 }
@@ -565,7 +569,7 @@ h4 {
     color: #888888;
     font-weight: 400;
     font-size: 14px;
-    
+
 }
 
 .lower-info {
@@ -852,14 +856,24 @@ h2 {
     margin-left: 8px;
 }
 
-#colossal {
+.colossal {
     height: 360px;
     width: 561px;
     border-radius: 6px;
-    margin-top: 20px;
     position: relative;
 }
-#colossal-section{
+
+.colossal-hover {
+    height: 360px;
+    width: 561px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.colossal:hover {
+    transform: scale(1.1);
+    transition: 0.8s;
     border-radius: 6px;
 }
 
@@ -869,12 +883,28 @@ h2 {
     flex-direction: row;
 }
 
-#geud-section {
+.geud-section {
     margin-left: 80px;
     border-radius: 6px;
+    height: 224px;
+    width: 399px;
+    overflow: hidden;
 
 }
-.geud-png{
+
+.geud-png {
+    border-radius: 6px;
+    overflow: hidden; 
+    height: 224px;
+    width: 399px;
+}
+#geud-pos{
+    display: flex;
+    flex-direction: column;
+}
+.geud-png:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
     border-radius: 6px;
 }
 
