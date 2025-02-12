@@ -919,13 +919,42 @@ h2 {
     background: linear-gradient(0deg, rgba(0, 0, 0, .7), transparent);
 }
 #hev-mayg{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
     background-color: #00b0f4;
     width: 101px;
     height: 25px;
-    color: #ffffff;
-    padding: 2px 3px;
     border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+#GoGo-style-section{
+    display: flex;
+    flex-direction: row;
+    height: 25.5px;
+    width: 1138px;
+    align-items: center;
+    margin-left: 100px;
+}
+#hev-mayg-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #ffffff;
     font-weight: 700;
+    display: flex;
+    align-self: center;
+}
+#Gogo-hev-mayg{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #000000;
+}
+#main-lower-section{
+    width: 1204px;
+    height: 408px;
+    margin-left: 100px;
+    margin-top: 30px;
 }
